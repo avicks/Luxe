@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF2B82FE1D493D800044793D /* HomePageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2B82FD1D493D800044793D /* HomePageContentViewController.m */; };
+		FF2D3F9A1C99F326006CF4E8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D3F991C99F326006CF4E8 /* LoginViewController.m */; };
+		FF2D3F9E1C99F6C2006CF4E8 /* LuxeService.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D3F9D1C99F6C2006CF4E8 /* LuxeService.m */; };
+		FF2D3FA21C9A00BD006CF4E8 /* LuxeUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D3FA11C9A00BD006CF4E8 /* LuxeUser.m */; };
+		FF2D3FA71C9C90F7006CF4E8 /* LuxeService_NSURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D3FA61C9C90F7006CF4E8 /* LuxeService_NSURLSession.m */; };
+		FF2D3FAA1C9C91C0006CF4E8 /* LuxeService_NSURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D3FA91C9C91C0006CF4E8 /* LuxeService_NSURLConnection.m */; };
+		FF2D3FAD1C9C9253006CF4E8 /* LuxeService_NSURLConnectionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D3FAC1C9C9253006CF4E8 /* LuxeService_NSURLConnectionRequest.m */; };
+		FF2D3FB01C9C95F5006CF4E8 /* LuxeService_NSURLSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D3FAF1C9C95F5006CF4E8 /* LuxeService_NSURLSessionRequest.m */; };
+		FF2D3FB41C9C9E8D006CF4E8 /* NSHTTPURLResponse+LuxeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D3FB31C9C9E8D006CF4E8 /* NSHTTPURLResponse+LuxeExtensions.m */; };
+		FF3FBC9E1D5132EC00903284 /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3FBC9D1D5132EC00903284 /* ServicesViewController.m */; };
+		FF3FBCA11D513E3900903284 /* BookingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3FBCA01D513E3900903284 /* BookingViewController.m */; };
+		FF44D2331DA3F4FA00FFBBED /* ServicesPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF44D2321DA3F4FA00FFBBED /* ServicesPageContentViewController.m */; };
+		FF5CC42B1C98917B006B0ECF /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5CC42A1C98917B006B0ECF /* SWRevealViewController.m */; };
+		FF5CC4341C989B38006B0ECF /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5CC4331C989B38006B0ECF /* MenuViewController.m */; };
+		FF62D0AB1D5A892C0065153A /* mplus-1p-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF62D0AA1D5A892C0065153A /* mplus-1p-regular.ttf */; };
+		FF76A23A1C62BCE0005B03DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF76A2391C62BCE0005B03DC /* main.m */; };
+		FF76A23D1C62BCE0005B03DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF76A23C1C62BCE0005B03DC /* AppDelegate.m */; };
+		FF76A2401C62BCE0005B03DC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF76A23F1C62BCE0005B03DC /* HomeViewController.m */; };
+		FF76A2431C62BCE0005B03DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF76A2411C62BCE0005B03DC /* Main.storyboard */; };
+		FF76A2531C62BCE0005B03DC /* LuxeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF76A2521C62BCE0005B03DC /* LuxeTests.m */; };
+		FF76A25E1C62BCE0005B03DC /* LuxeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF76A25D1C62BCE0005B03DC /* LuxeUITests.m */; };
+		FF80F6FB1CA0774800C8C972 /* NSArray+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = FF80F6FA1CA0774800C8C972 /* NSArray+Enumerable.m */; };
+		FF8162861D4A8C46000285E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8162851D4A8C46000285E7 /* Assets.xcassets */; };
+		FFC795311D5BD3CA006B34A3 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC795301D5BD3CA006B34A3 /* RegisterViewController.m */; };
+		FFC994941CAC6F0200251321 /* LuxeTrip.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC994931CAC6F0200251321 /* LuxeTrip.m */; };
+		FFD229F71C6419E300D130CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD229F61C6419E300D130CB /* LaunchScreen.storyboard */; };
+		FFF72DE41D47FC3500D08803 /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFF72DDF1D47FC3500D08803 /* Lora-Bold.ttf */; };
+		FFF72DE51D47FC3500D08803 /* Lora-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFF72DE01D47FC3500D08803 /* Lora-BoldItalic.ttf */; };
+		FFF72DE61D47FC3500D08803 /* Lora-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFF72DE11D47FC3500D08803 /* Lora-Italic.ttf */; };
+		FFF72DE71D47FC3500D08803 /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFF72DE21D47FC3500D08803 /* Lora-Regular.ttf */; };
+		FFF72DE81D47FC3500D08803 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = FFF72DE31D47FC3500D08803 /* OFL.txt */; };
+		FFF72DEC1D48061F00D08803 /* circular-pro-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFF72DEA1D48061F00D08803 /* circular-pro-bold.ttf */; };
+		FFF72DF01D4807F800D08803 /* LeagueSpartan-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FFF72DEF1D4807F800D08803 /* LeagueSpartan-Bold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF76A24F1C62BCE0005B03DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF76A22D1C62BCE0005B03DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF76A2341C62BCE0005B03DC;
+			remoteInfo = Luxe;
+		};
+		FF76A25A1C62BCE0005B03DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF76A22D1C62BCE0005B03DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF76A2341C62BCE0005B03DC;
+			remoteInfo = Luxe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF2B82FC1D493D800044793D /* HomePageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageContentViewController.h; sourceTree = "<group>"; };
+		FF2B82FD1D493D800044793D /* HomePageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageContentViewController.m; sourceTree = "<group>"; };
+		FF2D3F981C99F326006CF4E8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FF2D3F991C99F326006CF4E8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FF2D3F9C1C99F6C2006CF4E8 /* LuxeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuxeService.h; sourceTree = "<group>"; };
+		FF2D3F9D1C99F6C2006CF4E8 /* LuxeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuxeService.m; sourceTree = "<group>"; };
+		FF2D3FA01C9A00BD006CF4E8 /* LuxeUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuxeUser.h; sourceTree = "<group>"; };
+		FF2D3FA11C9A00BD006CF4E8 /* LuxeUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuxeUser.m; sourceTree = "<group>"; };
+		FF2D3FA31C9A0103006CF4E8 /* LuxeSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuxeSerializable.h; sourceTree = "<group>"; };
+		FF2D3FA51C9C90F7006CF4E8 /* LuxeService_NSURLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuxeService_NSURLSession.h; sourceTree = "<group>"; };
+		FF2D3FA61C9C90F7006CF4E8 /* LuxeService_NSURLSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuxeService_NSURLSession.m; sourceTree = "<group>"; };
+		FF2D3FA81C9C91C0006CF4E8 /* LuxeService_NSURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuxeService_NSURLConnection.h; sourceTree = "<group>"; };
+		FF2D3FA91C9C91C0006CF4E8 /* LuxeService_NSURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuxeService_NSURLConnection.m; sourceTree = "<group>"; };
+		FF2D3FAB1C9C9253006CF4E8 /* LuxeService_NSURLConnectionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuxeService_NSURLConnectionRequest.h; sourceTree = "<group>"; };
+		FF2D3FAC1C9C9253006CF4E8 /* LuxeService_NSURLConnectionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuxeService_NSURLConnectionRequest.m; sourceTree = "<group>"; };
+		FF2D3FAE1C9C95F5006CF4E8 /* LuxeService_NSURLSessionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuxeService_NSURLSessionRequest.h; sourceTree = "<group>"; };
+		FF2D3FAF1C9C95F5006CF4E8 /* LuxeService_NSURLSessionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuxeService_NSURLSessionRequest.m; sourceTree = "<group>"; };
+		FF2D3FB11C9C9C89006CF4E8 /* LuxeService_SubclassMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuxeService_SubclassMethods.h; sourceTree = "<group>"; };
+		FF2D3FB21C9C9E8D006CF4E8 /* NSHTTPURLResponse+LuxeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSHTTPURLResponse+LuxeExtensions.h"; sourceTree = "<group>"; };
+		FF2D3FB31C9C9E8D006CF4E8 /* NSHTTPURLResponse+LuxeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSHTTPURLResponse+LuxeExtensions.m"; sourceTree = "<group>"; };
+		FF3FBC9C1D5132EC00903284 /* ServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicesViewController.h; sourceTree = "<group>"; };
+		FF3FBC9D1D5132EC00903284 /* ServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicesViewController.m; sourceTree = "<group>"; };
+		FF3FBC9F1D513E3900903284 /* BookingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingViewController.h; sourceTree = "<group>"; };
+		FF3FBCA01D513E3900903284 /* BookingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingViewController.m; sourceTree = "<group>"; };
+		FF44D2311DA3F4FA00FFBBED /* ServicesPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicesPageContentViewController.h; sourceTree = "<group>"; };
+		FF44D2321DA3F4FA00FFBBED /* ServicesPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicesPageContentViewController.m; sourceTree = "<group>"; };
+		FF5CC4291C98917B006B0ECF /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		FF5CC42A1C98917B006B0ECF /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		FF5CC4321C989B38006B0ECF /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		FF5CC4331C989B38006B0ECF /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		FF62D0AA1D5A892C0065153A /* mplus-1p-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-1p-regular.ttf"; sourceTree = "<group>"; };
+		FF76A2351C62BCE0005B03DC /* Luxe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Luxe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF76A2391C62BCE0005B03DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF76A23B1C62BCE0005B03DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF76A23C1C62BCE0005B03DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF76A23E1C62BCE0005B03DC /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FF76A23F1C62BCE0005B03DC /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FF76A2421C62BCE0005B03DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF76A2491C62BCE0005B03DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF76A24E1C62BCE0005B03DC /* LuxeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuxeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF76A2521C62BCE0005B03DC /* LuxeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuxeTests.m; sourceTree = "<group>"; };
+		FF76A2541C62BCE0005B03DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF76A2591C62BCE0005B03DC /* LuxeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuxeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF76A25D1C62BCE0005B03DC /* LuxeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuxeUITests.m; sourceTree = "<group>"; };
+		FF76A25F1C62BCE0005B03DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF80F6F91CA0774800C8C972 /* NSArray+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Enumerable.h"; sourceTree = "<group>"; };
+		FF80F6FA1CA0774800C8C972 /* NSArray+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Enumerable.m"; sourceTree = "<group>"; };
+		FF8162851D4A8C46000285E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFC7952F1D5BD3CA006B34A3 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		FFC795301D5BD3CA006B34A3 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		FFC994921CAC6F0200251321 /* LuxeTrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuxeTrip.h; sourceTree = "<group>"; };
+		FFC994931CAC6F0200251321 /* LuxeTrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuxeTrip.m; sourceTree = "<group>"; };
+		FFD229F61C6419E300D130CB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFF72DDF1D47FC3500D08803 /* Lora-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Bold.ttf"; sourceTree = "<group>"; };
+		FFF72DE01D47FC3500D08803 /* Lora-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FFF72DE11D47FC3500D08803 /* Lora-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Italic.ttf"; sourceTree = "<group>"; };
+		FFF72DE21D47FC3500D08803 /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lora-Regular.ttf"; sourceTree = "<group>"; };
+		FFF72DE31D47FC3500D08803 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		FFF72DEA1D48061F00D08803 /* circular-pro-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "circular-pro-bold.ttf"; sourceTree = "<group>"; };
+		FFF72DEF1D4807F800D08803 /* LeagueSpartan-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Bold.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF76A2321C62BCE0005B03DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF76A24B1C62BCE0005B03DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF76A2561C62BCE0005B03DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF2D3F9B1C99F32D006CF4E8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF76A23E1C62BCE0005B03DC /* HomeViewController.h */,
+				FF76A23F1C62BCE0005B03DC /* HomeViewController.m */,
+				FF2B82FC1D493D800044793D /* HomePageContentViewController.h */,
+				FF2B82FD1D493D800044793D /* HomePageContentViewController.m */,
+				FF2D3F981C99F326006CF4E8 /* LoginViewController.h */,
+				FF2D3F991C99F326006CF4E8 /* LoginViewController.m */,
+				FFC7952F1D5BD3CA006B34A3 /* RegisterViewController.h */,
+				FFC795301D5BD3CA006B34A3 /* RegisterViewController.m */,
+				FF3FBC9C1D5132EC00903284 /* ServicesViewController.h */,
+				FF3FBC9D1D5132EC00903284 /* ServicesViewController.m */,
+				FF3FBC9F1D513E3900903284 /* BookingViewController.h */,
+				FF3FBCA01D513E3900903284 /* BookingViewController.m */,
+				FF44D2311DA3F4FA00FFBBED /* ServicesPageContentViewController.h */,
+				FF44D2321DA3F4FA00FFBBED /* ServicesPageContentViewController.m */,
+				FF5CC4351C989B4C006B0ECF /* Menu */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FF2D3F9F1C99FFDD006CF4E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D3FA31C9A0103006CF4E8 /* LuxeSerializable.h */,
+				FF2D3FA01C9A00BD006CF4E8 /* LuxeUser.h */,
+				FF2D3FA11C9A00BD006CF4E8 /* LuxeUser.m */,
+				FFC994921CAC6F0200251321 /* LuxeTrip.h */,
+				FFC994931CAC6F0200251321 /* LuxeTrip.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FF2D3FA41C9A093F006CF4E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D3F9C1C99F6C2006CF4E8 /* LuxeService.h */,
+				FF2D3F9D1C99F6C2006CF4E8 /* LuxeService.m */,
+				FF2D3FA81C9C91C0006CF4E8 /* LuxeService_NSURLConnection.h */,
+				FF2D3FA91C9C91C0006CF4E8 /* LuxeService_NSURLConnection.m */,
+				FF2D3FAB1C9C9253006CF4E8 /* LuxeService_NSURLConnectionRequest.h */,
+				FF2D3FAC1C9C9253006CF4E8 /* LuxeService_NSURLConnectionRequest.m */,
+				FF2D3FA51C9C90F7006CF4E8 /* LuxeService_NSURLSession.h */,
+				FF2D3FA61C9C90F7006CF4E8 /* LuxeService_NSURLSession.m */,
+				FF2D3FAE1C9C95F5006CF4E8 /* LuxeService_NSURLSessionRequest.h */,
+				FF2D3FAF1C9C95F5006CF4E8 /* LuxeService_NSURLSessionRequest.m */,
+				FF2D3FB11C9C9C89006CF4E8 /* LuxeService_SubclassMethods.h */,
+				FF2D3FB21C9C9E8D006CF4E8 /* NSHTTPURLResponse+LuxeExtensions.h */,
+				FF2D3FB31C9C9E8D006CF4E8 /* NSHTTPURLResponse+LuxeExtensions.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		FF5CC4281C989149006B0ECF /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CC4291C98917B006B0ECF /* SWRevealViewController.h */,
+				FF5CC42A1C98917B006B0ECF /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		FF5CC4351C989B4C006B0ECF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CC4321C989B38006B0ECF /* MenuViewController.h */,
+				FF5CC4331C989B38006B0ECF /* MenuViewController.m */,
+				FF5CC4281C989149006B0ECF /* SWRevealViewController */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		FF62D0A91D5A892C0065153A /* Mplus */ = {
+			isa = PBXGroup;
+			children = (
+				FF62D0AA1D5A892C0065153A /* mplus-1p-regular.ttf */,
+			);
+			path = Mplus;
+			sourceTree = "<group>";
+		};
+		FF76A22C1C62BCE0005B03DC = {
+			isa = PBXGroup;
+			children = (
+				FF76A2371C62BCE0005B03DC /* Luxe */,
+				FF76A2511C62BCE0005B03DC /* LuxeTests */,
+				FF76A25C1C62BCE0005B03DC /* LuxeUITests */,
+				FF76A2361C62BCE0005B03DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF76A2361C62BCE0005B03DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF76A2351C62BCE0005B03DC /* Luxe.app */,
+				FF76A24E1C62BCE0005B03DC /* LuxeTests.xctest */,
+				FF76A2591C62BCE0005B03DC /* LuxeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF76A2371C62BCE0005B03DC /* Luxe */ = {
+			isa = PBXGroup;
+			children = (
+				FF80F6F81CA0772700C8C972 /* Categories */,
+				FF2D3FA41C9A093F006CF4E8 /* Services */,
+				FF2D3F9F1C99FFDD006CF4E8 /* Model */,
+				FF2D3F9B1C99F32D006CF4E8 /* View Controllers */,
+				FF76A23B1C62BCE0005B03DC /* AppDelegate.h */,
+				FF76A23C1C62BCE0005B03DC /* AppDelegate.m */,
+				FF76A2411C62BCE0005B03DC /* Main.storyboard */,
+				FFD229F61C6419E300D130CB /* LaunchScreen.storyboard */,
+				FF76A2491C62BCE0005B03DC /* Info.plist */,
+				FF8162851D4A8C46000285E7 /* Assets.xcassets */,
+				FF76A2381C62BCE0005B03DC /* Supporting Files */,
+			);
+			path = Luxe;
+			sourceTree = "<group>";
+		};
+		FF76A2381C62BCE0005B03DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF62D0A91D5A892C0065153A /* Mplus */,
+				FFF72DEE1D4807F800D08803 /* LeagueSpartan */,
+				FFF72DE91D48061F00D08803 /* Circular */,
+				FFF72DDE1D47FC3500D08803 /* Lora */,
+				FF76A2391C62BCE0005B03DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF76A2511C62BCE0005B03DC /* LuxeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF76A2521C62BCE0005B03DC /* LuxeTests.m */,
+				FF76A2541C62BCE0005B03DC /* Info.plist */,
+			);
+			path = LuxeTests;
+			sourceTree = "<group>";
+		};
+		FF76A25C1C62BCE0005B03DC /* LuxeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF76A25D1C62BCE0005B03DC /* LuxeUITests.m */,
+				FF76A25F1C62BCE0005B03DC /* Info.plist */,
+			);
+			path = LuxeUITests;
+			sourceTree = "<group>";
+		};
+		FF80F6F81CA0772700C8C972 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FF80F6F91CA0774800C8C972 /* NSArray+Enumerable.h */,
+				FF80F6FA1CA0774800C8C972 /* NSArray+Enumerable.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		FFF72DDE1D47FC3500D08803 /* Lora */ = {
+			isa = PBXGroup;
+			children = (
+				FFF72DDF1D47FC3500D08803 /* Lora-Bold.ttf */,
+				FFF72DE01D47FC3500D08803 /* Lora-BoldItalic.ttf */,
+				FFF72DE11D47FC3500D08803 /* Lora-Italic.ttf */,
+				FFF72DE21D47FC3500D08803 /* Lora-Regular.ttf */,
+				FFF72DE31D47FC3500D08803 /* OFL.txt */,
+			);
+			path = Lora;
+			sourceTree = "<group>";
+		};
+		FFF72DE91D48061F00D08803 /* Circular */ = {
+			isa = PBXGroup;
+			children = (
+				FFF72DEA1D48061F00D08803 /* circular-pro-bold.ttf */,
+			);
+			path = Circular;
+			sourceTree = "<group>";
+		};
+		FFF72DEE1D4807F800D08803 /* LeagueSpartan */ = {
+			isa = PBXGroup;
+			children = (
+				FFF72DEF1D4807F800D08803 /* LeagueSpartan-Bold.otf */,
+			);
+			path = LeagueSpartan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF76A2341C62BCE0005B03DC /* Luxe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF76A2621C62BCE0005B03DC /* Build configuration list for PBXNativeTarget "Luxe" */;
+			buildPhases = (
+				FF76A2311C62BCE0005B03DC /* Sources */,
+				FF76A2321C62BCE0005B03DC /* Frameworks */,
+				FF76A2331C62BCE0005B03DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Luxe;
+			productName = Luxe;
+			productReference = FF76A2351C62BCE0005B03DC /* Luxe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF76A24D1C62BCE0005B03DC /* LuxeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF76A2651C62BCE0005B03DC /* Build configuration list for PBXNativeTarget "LuxeTests" */;
+			buildPhases = (
+				FF76A24A1C62BCE0005B03DC /* Sources */,
+				FF76A24B1C62BCE0005B03DC /* Frameworks */,
+				FF76A24C1C62BCE0005B03DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF76A2501C62BCE0005B03DC /* PBXTargetDependency */,
+			);
+			name = LuxeTests;
+			productName = LuxeTests;
+			productReference = FF76A24E1C62BCE0005B03DC /* LuxeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF76A2581C62BCE0005B03DC /* LuxeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF76A2681C62BCE0005B03DC /* Build configuration list for PBXNativeTarget "LuxeUITests" */;
+			buildPhases = (
+				FF76A2551C62BCE0005B03DC /* Sources */,
+				FF76A2561C62BCE0005B03DC /* Frameworks */,
+				FF76A2571C62BCE0005B03DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF76A25B1C62BCE0005B03DC /* PBXTargetDependency */,
+			);
+			name = LuxeUITests;
+			productName = LuxeUITests;
+			productReference = FF76A2591C62BCE0005B03DC /* LuxeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF76A22D1C62BCE0005B03DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					FF76A2341C62BCE0005B03DC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = E2QDL8NS99;
+					};
+					FF76A24D1C62BCE0005B03DC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FF76A2341C62BCE0005B03DC;
+					};
+					FF76A2581C62BCE0005B03DC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FF76A2341C62BCE0005B03DC;
+					};
+				};
+			};
+			buildConfigurationList = FF76A2301C62BCE0005B03DC /* Build configuration list for PBXProject "Luxe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF76A22C1C62BCE0005B03DC;
+			productRefGroup = FF76A2361C62BCE0005B03DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF76A2341C62BCE0005B03DC /* Luxe */,
+				FF76A24D1C62BCE0005B03DC /* LuxeTests */,
+				FF76A2581C62BCE0005B03DC /* LuxeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF76A2331C62BCE0005B03DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF72DE81D47FC3500D08803 /* OFL.txt in Resources */,
+				FFD229F71C6419E300D130CB /* LaunchScreen.storyboard in Resources */,
+				FFF72DF01D4807F800D08803 /* LeagueSpartan-Bold.otf in Resources */,
+				FFF72DE41D47FC3500D08803 /* Lora-Bold.ttf in Resources */,
+				FFF72DE71D47FC3500D08803 /* Lora-Regular.ttf in Resources */,
+				FFF72DEC1D48061F00D08803 /* circular-pro-bold.ttf in Resources */,
+				FFF72DE61D47FC3500D08803 /* Lora-Italic.ttf in Resources */,
+				FFF72DE51D47FC3500D08803 /* Lora-BoldItalic.ttf in Resources */,
+				FF62D0AB1D5A892C0065153A /* mplus-1p-regular.ttf in Resources */,
+				FF8162861D4A8C46000285E7 /* Assets.xcassets in Resources */,
+				FF76A2431C62BCE0005B03DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF76A24C1C62BCE0005B03DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF76A2571C62BCE0005B03DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF76A2311C62BCE0005B03DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF76A2401C62BCE0005B03DC /* HomeViewController.m in Sources */,
+				FF76A23D1C62BCE0005B03DC /* AppDelegate.m in Sources */,
+				FF3FBC9E1D5132EC00903284 /* ServicesViewController.m in Sources */,
+				FF2D3FA21C9A00BD006CF4E8 /* LuxeUser.m in Sources */,
+				FF2D3FAD1C9C9253006CF4E8 /* LuxeService_NSURLConnectionRequest.m in Sources */,
+				FF2D3F9A1C99F326006CF4E8 /* LoginViewController.m in Sources */,
+				FF2D3F9E1C99F6C2006CF4E8 /* LuxeService.m in Sources */,
+				FF76A23A1C62BCE0005B03DC /* main.m in Sources */,
+				FFC795311D5BD3CA006B34A3 /* RegisterViewController.m in Sources */,
+				FF3FBCA11D513E3900903284 /* BookingViewController.m in Sources */,
+				FF2D3FAA1C9C91C0006CF4E8 /* LuxeService_NSURLConnection.m in Sources */,
+				FF80F6FB1CA0774800C8C972 /* NSArray+Enumerable.m in Sources */,
+				FF2D3FA71C9C90F7006CF4E8 /* LuxeService_NSURLSession.m in Sources */,
+				FF44D2331DA3F4FA00FFBBED /* ServicesPageContentViewController.m in Sources */,
+				FF2B82FE1D493D800044793D /* HomePageContentViewController.m in Sources */,
+				FF2D3FB01C9C95F5006CF4E8 /* LuxeService_NSURLSessionRequest.m in Sources */,
+				FF5CC42B1C98917B006B0ECF /* SWRevealViewController.m in Sources */,
+				FFC994941CAC6F0200251321 /* LuxeTrip.m in Sources */,
+				FF2D3FB41C9C9E8D006CF4E8 /* NSHTTPURLResponse+LuxeExtensions.m in Sources */,
+				FF5CC4341C989B38006B0ECF /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF76A24A1C62BCE0005B03DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF76A2531C62BCE0005B03DC /* LuxeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF76A2551C62BCE0005B03DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF76A25E1C62BCE0005B03DC /* LuxeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF76A2501C62BCE0005B03DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF76A2341C62BCE0005B03DC /* Luxe */;
+			targetProxy = FF76A24F1C62BCE0005B03DC /* PBXContainerItemProxy */;
+		};
+		FF76A25B1C62BCE0005B03DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF76A2341C62BCE0005B03DC /* Luxe */;
+			targetProxy = FF76A25A1C62BCE0005B03DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF76A2411C62BCE0005B03DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF76A2421C62BCE0005B03DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF76A2601C62BCE0005B03DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF76A2611C62BCE0005B03DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF76A2631C62BCE0005B03DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Luxe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuxeLimousineServices.Luxe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FF76A2641C62BCE0005B03DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Luxe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuxeLimousineServices.Luxe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FF76A2661C62BCE0005B03DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuxeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuxeLimousineServices.LuxeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luxe.app/Luxe";
+			};
+			name = Debug;
+		};
+		FF76A2671C62BCE0005B03DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LuxeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuxeLimousineServices.LuxeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luxe.app/Luxe";
+			};
+			name = Release;
+		};
+		FF76A2691C62BCE0005B03DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuxeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuxeLimousineServices.LuxeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Luxe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FF76A26A1C62BCE0005B03DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LuxeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LuxeLimousineServices.LuxeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Luxe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF76A2301C62BCE0005B03DC /* Build configuration list for PBXProject "Luxe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF76A2601C62BCE0005B03DC /* Debug */,
+				FF76A2611C62BCE0005B03DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF76A2621C62BCE0005B03DC /* Build configuration list for PBXNativeTarget "Luxe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF76A2631C62BCE0005B03DC /* Debug */,
+				FF76A2641C62BCE0005B03DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF76A2651C62BCE0005B03DC /* Build configuration list for PBXNativeTarget "LuxeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF76A2661C62BCE0005B03DC /* Debug */,
+				FF76A2671C62BCE0005B03DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF76A2681C62BCE0005B03DC /* Build configuration list for PBXNativeTarget "LuxeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF76A2691C62BCE0005B03DC /* Debug */,
+				FF76A26A1C62BCE0005B03DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF76A22D1C62BCE0005B03DC /* Project object */;
+}
