@@ -1,2 +1,2 @@
 # Luxe
-Trip Booking iOS Application
+Unfinished Trip Booking iOS Application
